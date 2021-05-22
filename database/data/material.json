@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Ceker",
+    "price": 20000,
+    "unit": "kg",
+    "category": ""
+  },
+  {
+    "name": "Mie",
+    "price": 2191,
+    "unit": "pcs",
+    "category": ""
+  },
+  {
+    "name": "Bihun",
+    "price": 2800,
+    "unit": "pcs",
+    "category": ""
+  },
+  {
+    "name": "Sosis Ori",
+    "price": 23500,
+    "unit": "bks",
+    "category": ""
+  },
+  {
+    "name": "Bumbu Setan Merapi",
+    "price": 6242,
+    "unit": "kg",
+    "category": "bumbu"
+  },
+  {
+    "name": "Bumbu Midun",
+    "price": 13565,
+    "unit": "kg",
+    "category": "bumbu"
+  },
+  {
+    "name": "Bumbu Suramadu",
+    "price": 13159,
+    "unit": "kg",
+    "category": "bumbu"
+  },
+  {
+    "name": "Bumbu Bakar",
+    "price": 13901,
+    "unit": "kg",
+    "category": "bumbu"
+  },
+  {
+    "name": "Bumbu Legend",
+    "price": 4600,
+    "unit": "kg",
+    "category": "bumbu"
+  },
+  {
+    "name": "Bumbu Roso",
+    "price": 2937,
+    "unit": "kg",
+    "category": "bumbu"
+  },
+  {
+    "name": "Big Cola",
+    "price": 15334,
+    "unit": "botol",
+    "category": "minuman"
+  },
+  {
+    "name": "Skm Vanilla",
+    "price": 6946,
+    "unit": "renceng",
+    "category": "minuman"
+  },
+  {
+    "name": "Nutrisari",
+    "price": 10208,
+    "unit": "renceng",
+    "category": "minuman"
+  },
+  {
+    "name": "MaduRasa",
+    "price": 8059,
+    "unit": "pack",
+    "category": "minuman"
+  },
+  {
+    "name": "TehTongji",
+    "price": 15000,
+    "unit": "pack",
+    "category": "minuman"
+  },
+  {
+    "name": "Selasih",
+    "price": 16250,
+    "unit": "kg",
+    "category": "minuman"
+  },
+  {
+    "name": "Syrup Melon",
+    "price": 15500,
+    "unit": "botol",
+    "category": "syrup"
+  },
+  {
+    "name": "Syrup Stawbery",
+    "price": 18228,
+    "unit": "botol",
+    "category": "syrup"
+  },
+  {
+    "name": "Syrup Leci",
+    "price": 9850,
+    "unit": "botol",
+    "category": "syrup"
+  },
+  {
+    "name": "Gula",
+    "price": 11780,
+    "unit": "kg",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Beras",
+    "price": 9800,
+    "unit": "kg",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Minyak",
+    "price": 10400,
+    "unit": "liter",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Saos Cabe",
+    "price": 15484,
+    "unit": "kg",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Kecap",
+    "price": 14373,
+    "unit": "kg",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Kecap Ikan",
+    "price": 26667,
+    "unit": "botol",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Pecin",
+    "price": 34000,
+    "unit": "kg",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Garam",
+    "price": 1450,
+    "unit": "bks",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Royco",
+    "price": 34386,
+    "unit": "kg",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Kriuk",
+    "price": 6000,
+    "unit": "porsi",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Spirtus",
+    "price": 26500,
+    "unit": "botol",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Nota Penjualan",
+    "price": 4000,
+    "unit": "buku",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Nota Parkir",
+    "price": 2500,
+    "unit": "buku",
+    "category": "bahan pelengkap"
+  },
+  {
+    "name": "Diswashing",
+    "price": 4250,
+    "unit": "botol",
+    "category": "sabun"
+  },
+  {
+    "name": "FloorClean",
+    "price": 4250,
+    "unit": "botol",
+    "category": "sabun"
+  },
+  {
+    "name": "HandSoap",
+    "price": 4250,
+    "unit": "botol",
+    "category": "sabun"
+  },
+  {
+    "name": "Karbol",
+    "price": 5600,
+    "unit": "botol",
+    "category": "sabun"
+  },
+  {
+    "name": "Pulpen",
+    "price": 924,
+    "unit": "pcs",
+    "category": "alat tulis"
+  },
+  {
+    "name": "Tipe -x",
+    "price": 3084,
+    "unit": "pcs",
+    "category": "alat tulis"
+  },
+  {
+    "name": "Isi Hekter",
+    "price": 1250,
+    "unit": "pcs",
+    "category": "alat tulis"
+  },
+  {
+    "name": "Batu Batrai Sedang",
+    "price": 1980,
+    "unit": "pcs",
+    "category": "alat tulis"
+  },
+  {
+    "name": "Batu Batrai Kecil",
+    "price": 1667,
+    "unit": "pcs",
+    "category": "alat tulis"
+  },
+  {
+    "name": "Batu Batrai Bulat",
+    "price": 4000,
+    "unit": "pcs",
+    "category": "alat tulis"
+  },
+  {
+    "name": "T.Botol",
+    "price": 45000,
+    "unit": "krat",
+    "category": "softdrink"
+  },
+  {
+    "name": "Fruit Tea",
+    "price": 45000,
+    "unit": "krat",
+    "category": "softdrink"
+  },
+  {
+    "name": "Tebs",
+    "price": 48000,
+    "unit": "krat",
+    "category": "softdrink"
+  },
+  {
+    "name": "Prima 600 ml",
+    "price": 31000,
+    "unit": "dus",
+    "category": "softdrink"
+  },
+  {
+    "name": "Pouch",
+    "price": 12500,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Cup Minuman Sablon",
+    "price": 18500,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Isi Cup Siller",
+    "price": 80000,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Sedotan Flexi",
+    "price": 780,
+    "unit": "bks",
+    "category": "plastik"
+  },
+  {
+    "name": "Wadah Ceker 650 ml",
+    "price": 1675,
+    "unit": "pcs",
+    "category": "plastik"
+  },
+  {
+    "name": "Wadah Ceker 800 ml",
+    "price": 1775,
+    "unit": "pcs",
+    "category": "plastik"
+  },
+  {
+    "name": "PLastik Diamons 1/2 Kg",
+    "price": 14000,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Plastik Tipis 1/4 Kg",
+    "price": 757,
+    "unit": "gulung",
+    "category": "plastik"
+  },
+  {
+    "name": "Plastik Pelita",
+    "price": 13000,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Plastik Letusan",
+    "price": 600,
+    "unit": "gulung",
+    "category": "plastik"
+  },
+  {
+    "name": "Mika Sosis",
+    "price": 180,
+    "unit": "lembar",
+    "category": "plastik"
+  },
+  {
+    "name": "Mika Kurisol isi 2",
+    "price": 140,
+    "unit": "lembar",
+    "category": "plastik"
+  },
+  {
+    "name": "Mika Kurisol isi 5",
+    "price": 240,
+    "unit": "lembar",
+    "category": "plastik"
+  },
+  {
+    "name": "Sendok Plastik",
+    "price": 3500,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Tusuk Gigi",
+    "price": 1800,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Tusuk Sate",
+    "price": 10000,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Trashbag",
+    "price": 16000,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Kertas Nasi",
+    "price": 3500,
+    "unit": "gulung",
+    "category": "plastik"
+  },
+  {
+    "name": "Tisu",
+    "price": 14603,
+    "unit": "pack",
+    "category": ""
+  },
+  {
+    "name": "Spon Kawat",
+    "price": 2084,
+    "unit": "pcs",
+    "category": ""
+  },
+  {
+    "name": "Spon Puring Nasi",
+    "price": 2500,
+    "unit": "pcs",
+    "category": ""
+  },
+  {
+    "name": "Lampu Kuning 12 w",
+    "price": 33500,
+    "unit": "pcs",
+    "category": ""
+  },
+  {
+    "name": "Lampu Putih 10w",
+    "price": 32700,
+    "unit": "pcs",
+    "category": ""
+  },
+  {
+    "name": "Kresek 15",
+    "price": 4700,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Kresek 24",
+    "price": 9200,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Kresek 30",
+    "price": 23400,
+    "unit": "pack",
+    "category": "plastik"
+  },
+  {
+    "name": "Stella Pocket",
+    "price": 8600,
+    "unit": "pcs",
+    "category": "pengharum ruangan"
+  },
+  {
+    "name": "Stella Semprot Refill",
+    "price": 23900,
+    "unit": "pcs",
+    "category": "pengharum ruangan"
+  },
+  {
+    "name": "Otani",
+    "price": 27400,
+    "unit": "pack",
+    "category": ""
+  },
+  {
+    "name": "Sayap",
+    "price": 22000,
+    "unit": "kg",
+    "category": ""
+  },
+  {
+    "name": "Iga",
+    "price": 70000,
+    "unit": "kg",
+    "category": ""
+  },
+  {
+    "name": "Baso Kecil",
+    "price": 25000,
+    "unit": "bks",
+    "category": ""
+  },
+  {
+    "name": "Baso Besar",
+    "price": 25500,
+    "unit": "bks",
+    "category": ""
+  },
+  {
+    "name": "Kere",
+    "price": 10000,
+    "unit": "bks",
+    "category": ""
+  },
+  {
+    "name": "Jelly",
+    "price": 8000,
+    "unit": "bks",
+    "category": ""
+  },
+  {
+    "name": "Ayam",
+    "price": 31000,
+    "unit": "kg",
+    "category": ""
+  },
+  {
+    "name": "Siomay",
+    "price": 5000,
+    "unit": "bks",
+    "category": ""
+  },
+  {
+    "name": "Batagor",
+    "price": 5000,
+    "unit": "bks",
+    "category": ""
+  },
+  {
+    "name": "Tulang",
+    "price": 15000,
+    "unit": "kg",
+    "category": ""
+  },
+  {
+    "name": "Kurisol Ori",
+    "price": 4500,
+    "unit": "pcs",
+    "category": "kurisol"
+  },
+  {
+    "name": "Kurisol Spicy",
+    "price": 5500,
+    "unit": "pcs",
+    "category": "kurisol"
+  },
+  {
+    "name": "Kurisol Cheese",
+    "price": 6000,
+    "unit": "pcs",
+    "category": "kurisol"
+  },
+  {
+    "name": "Kurisol Beef Ori",
+    "price": 7500,
+    "unit": "pcs",
+    "category": "kurisol"
+  },
+  {
+    "name": "Kurisol Beef Spicy",
+    "price": 8000,
+    "unit": "pcs",
+    "category": "kurisol"
+  },
+  {
+    "name": "Galon",
+    "price": 5000,
+    "unit": "galon",
+    "category": ""
+  },
+  {
+    "name": "Es Batu",
+    "price": 17000,
+    "unit": "ball",
+    "category": ""
+  },
+  {
+    "name": "Yakult",
+    "price": 1530,
+    "unit": "botol",
+    "category": ""
+  },
+  {
+    "name": "Ice Cream",
+    "price": 130000,
+    "unit": "box",
+    "category": ""
+  },
+  {
+    "name": "Kerupuk Putih",
+    "price": 400,
+    "unit": "pcs",
+    "category": ""
+  },
+  {
+    "name": "Gas Besar",
+    "price": 145000,
+    "unit": "tabung",
+    "category": ""
+  }
+]

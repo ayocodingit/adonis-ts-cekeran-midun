@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dipatiukur",
+    "address": "Jl. Singaperbangsa No.103c Bandung",
+    "code": "cabangDU"
+  },
+  {
+    "id": 2,
+    "name": "Cikutra",
+    "address": "Jl. Cikutra No.209 Bandung",
+    "code": "cabangCKT"
+  },
+  {
+    "id": 3,
+    "name": "Cimahi 1",
+    "address": "Jl. Jend. H. Amir Machmud No.613 Kota Cimahi",
+    "code": "cabangCMH1"
+  },
+  {
+    "id": 4,
+    "name": "Padjajaran",
+    "address": "Jl. Padjajaran No. 80 E Bandung",
+    "code": "cabangPDJ"
+  },
+  {
+    "id": 5,
+    "name": "Kopo",
+    "address": "Jl. Kopo Bihbul No. 37 B Bandung",
+    "code": "cabangKOPO"
+  },
+  {
+    "id": 6,
+    "name": "Cimahi 2",
+    "address": "Jl. Lurah No. 22 Kota Cimahi",
+    "code": "cabangCMH2"
+  },
+  {
+    "id": 7,
+    "name": "Sasak Gantung",
+    "address": "Jl. Sasak Gantung No. 92, Cikawao, Kota Bandung",
+    "code": "cabangSKTG"
+  }
+]

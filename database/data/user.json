@@ -1,0 +1,72 @@
+[
+  {
+    "username": "headoutletDU",
+    "email": "headoutletDU@gmail.com",
+    "password": "hodu0402",
+    "role": "branch",
+    "branch_id": 1
+  },
+  {
+    "username": "headoutletCKT",
+    "email": "headoutletCKT@gmail.com",
+    "password": "hockt0402",
+    "role": "branch",
+    "branch_id": 2
+  },
+  {
+    "username": "headoutletCMH1",
+    "email": "headoutletCMH1@gmail.com",
+    "password": "hoc10402",
+    "role": "branch",
+    "branch_id": 3
+  },
+  {
+    "username": "headoutletPDJ",
+    "email": "headoutletPDJ@gmail.com",
+    "password": "hopdj0402",
+    "role": "branch",
+    "branch_id": 4
+  },
+  {
+    "username": "headoutletKOPO",
+    "email": "headoutletKOPO@gmail.com",
+    "password": "hokopo0402",
+    "role": "branch",
+    "branch_id": 5
+  },
+  {
+    "username": "headoutletCMH2",
+    "email": "headoutletCMH2@gmail.com",
+    "password": "hoc20402",
+    "role": "branch",
+    "branch_id": 6
+  },
+  {
+    "username": "headoutletSKTG",
+    "email": "headoutletSKTG@gmail.com",
+    "password": "hosktg0402",
+    "role": "branch",
+    "branch_id": 7
+  },
+  {
+    "username": "produksimidun",
+    "email": "produksimidun@gmail.com",
+    "password": "produksimidun",
+    "role": "production",
+    "branch_id": null
+  },
+  {
+    "username": "ceomidun",
+    "email": "ceomidun@gmail.com",
+    "password": "ceomidun",
+    "role": "ceo",
+    "branch_id": null
+  },
+  {
+    "username": "staffkeuangan",
+    "email": "skeumidun@gmail.com",
+    "password": "skeumidun",
+    "role": "staff",
+    "branch_id": null
+  }
+]
