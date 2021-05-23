@@ -33,8 +33,8 @@ Route.group(() => {
 Route.group(() => {
   Route.get('/', 'BookingController.index')
   Route.post('/', 'BookingController.store')
-  Route.put('/:id', 'BookingController.update')
-  Route.get('/:id', 'BookingController.show')
+  // Route.put('/:id', 'BookingController.update')
+  // Route.get('/:id', 'BookingController.show')
 }).prefix('api/booking').middleware('auth')
 
 // Route.group(() => {
