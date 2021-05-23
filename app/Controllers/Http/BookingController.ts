@@ -43,14 +43,12 @@ export default class BookingController {
     const trx = await Database.transaction()
     try {
       const document = new Document
-      document.reference_number = request.reference_number
+      document.fill(request)
       document.date = moment().toDate()
       document.branch_id = await auth.user.branch_id
-      document.description = request.description
       document.status = 'booking'
       document.useTransaction(trx)
       await document.save()
-
       for (const item of request.data) {
         const material = await Material.findOrFail(item.material_id)
         const booking = new Booking
