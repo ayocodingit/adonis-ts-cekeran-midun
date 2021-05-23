@@ -47,8 +47,7 @@ export default class BookingController {
       document.date = moment().toDate()
       document.branch_id = await auth.user.branch_id
       document.status = 'booking'
-      document.useTransaction(trx)
-      await document.save()
+      await document.useTransaction(trx).save()
       for (const item of request.data) {
         const material = await Material.findOrFail(item.material_id)
         const booking = new Booking
@@ -58,8 +57,7 @@ export default class BookingController {
         booking.category = material.category
         booking.qty = item['qty']
         booking.document_id = document.id
-        booking.useTransaction(trx)
-        await booking.save()
+        await booking.useTransaction(trx).save()
       }
       await trx.commit()
     } catch (error) {
