@@ -1,10 +1,11 @@
 import { DateTime } from 'luxon'
-import { BaseModel, column, beforeSave } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, column, beforeSave, belongsTo, BelongsTo } from '@ioc:Adonis/Lucid/Orm'
 import Hash from '@ioc:Adonis/Core/Hash'
+import Branch from 'App/Models/Branch'
 
 export default class User extends BaseModel {
   @column({ isPrimary: true })
-  public id: number
+  public id: bigint
 
   @column()
   public username: string
@@ -33,5 +34,8 @@ export default class User extends BaseModel {
       user.password = await Hash.make(user.password)
     }
   }
+
+  @belongsTo(() => Branch)
+  public branch: BelongsTo<typeof Branch>
 
 }

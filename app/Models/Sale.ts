@@ -3,7 +3,19 @@ import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
 
 export default class Sale extends BaseModel {
   @column({ isPrimary: true })
-  public id: number
+  public id: bigint
+
+  @column()
+  public gross_income: bigint
+
+  @column()
+  public tax: number
+
+  @column()
+  public net_income: bigint
+
+  @column()
+  public document_id: bigint
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime

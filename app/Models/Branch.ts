@@ -3,7 +3,7 @@ import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
 
 export default class Branch extends BaseModel {
   @column({ isPrimary: true })
-  public id: number
+  public id: bigint
 
   @column()
   public name: string

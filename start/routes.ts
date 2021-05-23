@@ -30,12 +30,12 @@ Route.group(() => {
   Route.get('profile', 'AuthController.profile').middleware('auth')
 }).prefix('api/auth')
 
-// Route.group(() => {
-//   Route.get('/', 'BookingController.index')
-//   Route.post('/', 'BookingController.store')
-//   Route.put('/:id', 'BookingController.update')
-//   Route.get('/:id', 'BookingController.show')
-// }).prefix('api/booking').middleware('auth')
+Route.group(() => {
+  Route.get('/', 'BookingController.index')
+  Route.post('/', 'BookingController.store')
+  Route.put('/:id', 'BookingController.update')
+  Route.get('/:id', 'BookingController.show')
+}).prefix('api/booking').middleware('auth')
 
 // Route.group(() => {
 //   Route.get('material', 'ListController.material')
