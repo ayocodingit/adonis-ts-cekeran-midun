@@ -18,7 +18,7 @@ export default class BookingController {
     try {
       await request.validate(StoreBookingValidator)
     } catch (error) {
-      response.status(422).json(error.messages)
+      return response.status(422).json(error.messages)
     }
 
     let data: {
@@ -43,7 +43,7 @@ export default class BookingController {
     const trx = await Database.transaction()
     try {
       const document = new Document
-      document.fill(request)
+      document.reference_number = request.reference_number
       document.date = moment().toDate()
       document.branch_id = await auth.user.branch_id
       document.status = 'booking'
