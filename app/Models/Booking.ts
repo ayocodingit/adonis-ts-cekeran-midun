@@ -27,10 +27,10 @@ export default class Booking extends BaseModel {
   public category: string | null
 
   @column()
-  public document_id: bigint
+  public documentId: bigint
 
   @column()
-  public material_id: bigint
+  public materialId: bigint
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime

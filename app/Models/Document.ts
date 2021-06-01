@@ -43,7 +43,7 @@ export default class Document extends BaseModel {
   public status: string
 
   @column()
-  public branch_id: bigint | null
+  public branchId: bigint | null
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime

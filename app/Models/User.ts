@@ -20,7 +20,7 @@ export default class User extends BaseModel {
   public role: string
 
   @column()
-  public branch_id: number | null
+  public branchId: number | null
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime

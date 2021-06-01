@@ -15,7 +15,7 @@ export default class Sale extends BaseModel {
   public net_income: bigint
 
   @column()
-  public document_id: bigint
+  public documentId: bigint
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
