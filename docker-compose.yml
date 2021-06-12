@@ -1,0 +1,17 @@
+version: '3'
+services:
+  app:
+    build: .
+    restart: always
+    image: app
+    container_name: app1
+    tty: true
+    networks:
+      - gateway
+    env_file:
+      - .env
+
+networks:
+  gateway:
+    external: true
+
