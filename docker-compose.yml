@@ -10,6 +10,8 @@ services:
       - gateway
     env_file:
       - .env
+    ports:
+      - 3333:3333
 
 networks:
   gateway:
