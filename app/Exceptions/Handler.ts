@@ -19,6 +19,15 @@ export default class ExceptionHandler extends HttpExceptionHandler {
      * Self handle the validation exception
      */
 
+    const childLogger = this.logger.child({
+      method: ctx.request.method(),
+      url: ctx.request.completeUrl(true),
+      status: ctx.response.getStatus(),
+      "user-agent": ctx.request.headers()['user-agent']
+    });
+
+    childLogger.info('')
+
     if (error.code === 'E_VALIDATION_FAILURE') {
       return ctx.response.status(422).json(error.messages)
     }
